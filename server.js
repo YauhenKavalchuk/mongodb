@@ -1,4 +1,5 @@
 const express = require('express');
+const { ObjectId } = require('mongodb');
 const { connectToDb, getDb } = require('./db');
 
 const PORT = 3000;
@@ -18,6 +19,10 @@ connectToDb((err) => {
   }
 });
 
+const handleError = (res, error) => {
+  res.status(500).json({ error });
+}
+
 app.get('/movies', (req, res) => {
   const movies = [];
 
@@ -31,9 +36,37 @@ app.get('/movies', (req, res) => {
         .status(200)
         .json(movies);
     })
-    .catch(() => {
+    .catch(() => handleError(res, "Something goes wrong..."));
+});
+
+app.get('/movies/:id', (req, res) => {
+  if (ObjectId.isValid(req.params.id)) {
+    db
+    .collection('movies')
+    .findOne({ _id: ObjectId(req.params.id) })
+    .then((doc) => {
       res
-        .status(500)
-        .json({ error: "Something goes wrong..." })
+        .status(200)
+        .json(doc);
     })
+    .catch(() => handleError(res, "Something goes wrong..."));
+  } else {
+    handleError(res, "Wrong id");
+  }
+});
+
+app.delete('/movies/:id', (req, res) => {
+  if (ObjectId.isValid(req.params.id)) {
+    db
+    .collection('movies')
+    .deleteOne({ _id: ObjectId(req.params.id) })
+    .then((result) => {
+      res
+        .status(200)
+        .json(result);
+    })
+    .catch(() => handleError(res, "Something goes wrong..."));
+  } else {
+    handleError(res, "Wrong id");
+  }
 });
