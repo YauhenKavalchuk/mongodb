@@ -1,24 +1,23 @@
 const express = require('express');
 const { ObjectId } = require('mongodb');
-const { connectToDb, getDb } = require('./db');
+const mongoose = require('mongoose');
 
 const PORT = 3000;
+const URL = "mongodb://localhost:27017/moviebox";
 
 const app = express();
 app.use(express.json());
 
 let db;
 
-connectToDb((err) => {
-  if (!err) {
-    app.listen(PORT, (err) => {
-      err ? console.log(err) : console.log(`listening port ${PORT}`);
-    });
-    db = getDb();
-  } else {
-    console.log(`DB connection error: ${err}`);
-  }
-});
+mongoose
+  .connect(URL)
+  .then((res) => console.log('Connected to MongoDB'))
+  .catch((err) => console.log(`DB connection error: ${err}`));
+
+app.listen(PORT, (err) => {
+  err ? console.log(err) : console.log(`listening port ${PORT}`);
+});  
 
 const handleError = (res, error) => {
   res.status(500).json({ error });

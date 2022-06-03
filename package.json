@@ -18,7 +18,8 @@
   "homepage": "https://github.com/YauhenKavalchuk/mongodb#readme",
   "dependencies": {
     "express": "^4.18.1",
-    "mongodb": "^4.6.0"
+    "mongodb": "^4.6.0",
+    "mongoose": "^6.3.5"
   },
   "devDependencies": {
     "nodemon": "^2.0.16"
