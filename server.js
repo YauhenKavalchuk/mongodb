@@ -3,13 +3,13 @@ const mongoose = require('mongoose');
 const movieRoutes = require('./routes/movie-routes');
 
 const PORT = 3000;
-const URL = "mongodb://localhost:27017/moviebox";
+const URL = "mongodb+srv://Yauhen:Pass321@cluster0.ukzftl9.mongodb.net/moviebox?retryWrites=true&w=majority";
 
 const app = express();
 app.use(express.json());
 
 mongoose
-  .connect(URL)
+  .connect(URL, { useNewUrlParser: true, useUnifiedTopology: true })
   .then((res) => console.log('Connected to MongoDB'))
   .catch((err) => console.log(`DB connection error: ${err}`));
 
