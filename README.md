@@ -13,13 +13,21 @@
 ### Используемые инструменты:
 - [Visual Studio Code (редактор кода)](https://code.visualstudio.com)
 - [Node Package Manager](https://www.npmjs.com)
-
+- [Brew (менеджер пакетов для MacOs)](https://brew.sh/index_ru)
+- [Postman (тестирование API)](https://www.postman.com/)
+- [Mongoose (npm)](https://github.com/Automattic/mongoose)
+- [MongoDB Atlas](https://www.mongodb.com)
 
 ### Полезные ссылки:
-
+- [Brew установка mongodb-compass](https://formulae.brew.sh/cask/mongodb-compass)
+- [Установка MongoDB для MacOs](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-os-x/)
+- [Скачать MongoDB MacOs/Windows](https://www.mongodb.com/try/download/community)
+- [Mongoose схемы](https://mongoosejs.com/docs/schematypes.html)
 
 ### Полезные видео:
-
+- [ECMAScript 2015. Полный курс (ES6)](https://youtu.be/TvgkcaaMLcc)
+- [NodeJS. Полный курс](https://youtu.be/nu4PiyjAmAE)
+- [GraphQL & React. Полный курс (Material-UI, Apollo, mLab)](https://youtu.be/GMJNSBur-lM)
 
 ---
 
@@ -54,6 +62,7 @@
 - Добавляем mongoose (Mongoose Integration. Part I)
 - Добавляем mongoose (Mongoose Integration. Part II)
 - MVC и Роутер (MVC Pattern & Router)
+- MongoDB Atlas
 
 ---
 
