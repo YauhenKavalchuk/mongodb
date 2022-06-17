@@ -39,9 +39,9 @@ MongoDB - документно-ориентированная, NoSQL база д
 - Клонируйте репозиторий: `https://github.com/YauhenKavalchuk/mongodb.git`
 - Перейдите в папку с проектом: `cd mongodb`
 - Перейдите в нужную ветку соответствующую уроку:
-  - `git checkout lesson_01_10`
-  - `git checkout lesson_11`
-  - `git checkout lesson_12` и т.д.
+  - `git checkout lesson_01_13`
+  - `git checkout lesson_14`
+  - `git checkout lesson_15` и т.д.
 - Установите зависимости: `yarn install`
 - Запустите сервер: `yarn dev`
 ---
