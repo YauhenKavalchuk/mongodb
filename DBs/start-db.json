@@ -1,0 +1,75 @@
+[
+  {
+    "title": "Pulp Fiction",
+    "director": "Quentin Tarantino",
+    "year": 1994, 
+    "genres": ["crime", "drama"],
+    "rating": 8.9
+  },
+  {
+    "title": "Fight Club",
+    "director": "David Fincher",
+    "year": 1999, 
+    "genres": ["drama"],
+    "rating": 8.8
+  },
+  {
+    "title": "Forrest Gump",
+    "director": "Robert Zemeckis",
+    "year": 1994, 
+    "genres": ["drama", "romance"],
+    "rating": 8.8
+  },
+  {
+    "title": "The Shawshank Redemption",
+    "director": "Frank Darabont",
+    "year": 1994, 
+    "genres": ["drama"],
+    "rating": 9.3
+  },
+  {
+    "title": "The Godfather",
+    "director": "Francis Ford Coppola",
+    "year": 1972, 
+    "genres": ["crime", "drama"],
+    "rating": 9.2
+  },
+  {
+    "title": "Goodfellas",
+    "director": "Martin Scorsese",
+    "year": 1990, 
+    "genres": ["crime", "drama", "biography"],
+    "rating": 8.7
+  },
+  {
+    "title": "Saving Private Ryan",
+    "director": "Steven Spielberg",
+    "year": 1998, 
+    "genres": ["war", "drama"],
+    "rating": 8.6
+  },
+  {
+    "title": "The Hateful Eight",
+    "director": "Quentin Tarantino",
+    "year": 2015, 
+    "genres": ["crime", "drama", "mystery"],
+    "rating": 7.8
+  },
+  {
+    "title": "Inglourious Basterds",
+    "director": "Quentin Tarantino",
+    "year": 2009, 
+    "genres": ["adventure", "drama", "war"],
+    "rating": 8.3
+  },
+  {
+    "title": "Lock, Stock and Two Smoking Barrels",
+    "director": "Guy Ritchie",
+    "year": 1998, 
+    "genres": ["action", "comedy", "crime"],
+    "rating": 8.2
+  }
+]
+
+
+{"title": "Snatch", "director": "Guy Ritchie", "year": 2000, "genres": ["comedy", "crime"], "rating": 8.3}
