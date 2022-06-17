@@ -2,7 +2,10 @@
 
 ### Описание курса:
 В данном видеокурсе мы с вами рассмотрим MongoDB.
-
+MongoDB - документно-ориентированная, NoSQL база данных, используемая для хранения больших объемов информации. Основная особенность базы - это представление данных в виде документов, структура которых напоминает JSON. Благодаря такому подходу MongoDB работает быстрее, обладает лучшей масштабируемость и ее легче использовать.
+Весь курс можно разбить на 2 основные части.
+В первой, мы разберём особенности работы с MongoDB, ключевые команды взаимодействия с базой и коллекцией. Команды поиска, сортировки, удаления и редактирования элементов.
+Во второй, используя Node.js, Express и библиотеку mongoose создадим свой API поддерживающий весь стэк CRUD операций. В заключении, разберём загрузку локальной базы данных в онлайн хранилище MongoDB Atlas.
 
 ### Поддержать развитие канала:
 [<img alt="webDev | YouTube Sponsor" src="https://img.shields.io/badge/Become a sponsor-F70000.svg?&style=for-the-badge&logo=youtube&logoColor=fff" />][sponsor]
@@ -15,6 +18,7 @@
 - [Node Package Manager](https://www.npmjs.com)
 - [Brew (менеджер пакетов для MacOs)](https://brew.sh/index_ru)
 - [Postman (тестирование API)](https://www.postman.com/)
+- [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=ru)
 - [Mongoose (npm)](https://github.com/Automattic/mongoose)
 - [MongoDB Atlas](https://www.mongodb.com)
 
@@ -40,6 +44,10 @@
   - `git checkout lesson_12` и т.д.
 - Установите зависимости: `yarn install`
 - Запустите сервер: `yarn dev`
+---
+
+### Используемые в курсе команды:
+- [Полный список](./comands.md)
 
 ---
 
@@ -55,6 +63,8 @@
 - Запросы вложенных документов (Querying Nested Documents)
 - Удаление и обновление документов (Deleting & Updating Documents)
 - Сложное обновление документов (Complex Updating Documents)
+- Полезные методы и операторы (Useful Methods & Operators)
+- Управление базами и коллекциями (Managing DBs & Collections)
 - Создание сервера, подключение к БД (Creating Server & Connecting To MongoDB)
 - Курсоры и получение данных (Cursors & Fetching Data)
 - Чтение и удаление документа (Fetching & Removing Document)
@@ -80,4 +90,3 @@
 [twitter]: https://twitter.com/YauhenKavalchuk
 [sponsor]: https://www.youtube.com/channel/UCE9ODjNIkOHrnSdkYWLfYhg/join
 [patron]: https://www.patreon.com/YauhenKavalchuk
-
