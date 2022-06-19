@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const movieRoutes = require('./routes/movie-routes');
 
 const PORT = 3000;
-const URL = "mongodb+srv://Yauhen:Pass321@cluster0.ukzftl9.mongodb.net/moviebox?retryWrites=true&w=majority";
+const URL = "mongodb+srv://Yauhen:Pass321@cluster0.vmsciik.mongodb.net/moviebox?retryWrites=true&w=majority";
 
 const app = express();
 app.use(express.json());
