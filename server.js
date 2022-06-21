@@ -10,7 +10,7 @@ let db;
 connectToDb((err) => {
   if (!err) {
     app.listen(PORT, (err) => {
-      err ? console.log(err) : console.log(`listening port ${PORT}`);
+      err ? console.log(err) : console.log(`Listening port ${PORT}`);
     });
     db = getDb();
   } else {
