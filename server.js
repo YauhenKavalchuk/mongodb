@@ -7,6 +7,7 @@ const URL = "mongodb+srv://Yauhen:Pass321@cluster0.vmsciik.mongodb.net/moviebox?
 
 const app = express();
 app.use(express.json());
+app.use(movieRoutes);
 
 mongoose
   .connect(URL, { useNewUrlParser: true, useUnifiedTopology: true })
@@ -16,5 +17,3 @@ mongoose
 app.listen(PORT, (err) => {
   err ? console.log(err) : console.log(`listening port ${PORT}`);
 });
-
-app.use(movieRoutes);
