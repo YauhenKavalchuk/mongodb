@@ -7,6 +7,7 @@ const URL = "mongodb://localhost:27017/moviebox";
 
 const app = express();
 app.use(express.json());
+app.use(movieRoutes);
 
 mongoose
   .connect(URL)
@@ -16,5 +17,3 @@ mongoose
 app.listen(PORT, (err) => {
   err ? console.log(err) : console.log(`listening port ${PORT}`);
 });
-
-app.use(movieRoutes);
