@@ -58,7 +58,7 @@ MongoDB - документно-ориентированная, NoSQL база д
 - Использование MongoDB Compass и Shell (Using MongoDB Compass & Shell)
 - Добавление новых данных (Adding New Documents)
 - Поиск документов (Finding Documents)
-- Ограничение и сортировка данных (Limiting & Sorting Data)
+- Лимит и сортировка данных (Limiting & Sorting Data)
 - Операторы и составные запросы (Operators & Complex Queries)
 - Запросы вложенных документов (Querying Nested Documents)
 - Удаление и обновление документов (Deleting & Updating Documents)
@@ -68,11 +68,11 @@ MongoDB - документно-ориентированная, NoSQL база д
 - Создание сервера, подключение к БД (Creating Server & Connecting To MongoDB)
 - Курсоры и получение данных (Cursors & Fetching Data)
 - Чтение и удаление документа (Fetching & Removing Document)
-- Создание и редактирование документа (Creating & Updating Document)
-- Добавляем mongoose (Mongoose Integration. Part I)
-- Добавляем mongoose (Mongoose Integration. Part II)
+- Создание и обновление документа (Creating & Updating Document)
+- Интеграция mongoose (Mongoose Integration. Part I)
+- Интеграция mongoose (Mongoose Integration. Part II)
 - MVC и Роутер (MVC Pattern & Router)
-- MongoDB Atlas
+- Облачная база данных MongoDB Atlas (MongoDB Atlas)
 
 ---
 
