@@ -15,17 +15,18 @@ MongoDB - документно-ориентированная, NoSQL база д
 
 ### Используемые инструменты:
 - [Visual Studio Code (редактор кода)](https://code.visualstudio.com)
+- [Brew (менеджер пакетов для MacOS)](https://brew.sh/index_ru)
 - [Node Package Manager](https://www.npmjs.com)
-- [Brew (менеджер пакетов для MacOs)](https://brew.sh/index_ru)
 - [Postman (тестирование API)](https://www.postman.com/)
 - [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=ru)
 - [Mongoose (npm)](https://github.com/Automattic/mongoose)
 - [MongoDB Atlas](https://www.mongodb.com)
 
 ### Полезные ссылки:
-- [Brew установка mongodb-compass](https://formulae.brew.sh/cask/mongodb-compass)
+- [mongodb-compass (Brew установка)](https://formulae.brew.sh/cask/mongodb-compass)
 - [Установка MongoDB для MacOs](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-os-x/)
-- [Скачать MongoDB MacOs/Windows](https://www.mongodb.com/try/download/community)
+- [Скачать MongoDB MacOS/Windows](https://www.mongodb.com/try/download/community)
+- [Запуск MongoDB на Windows 10](https://pacificsky.ru/recepty/nosql/mongodb/198-kak-ustanovit-i-zapustit-mongodb-na-windows-10.html)
 - [Mongoose схемы](https://mongoosejs.com/docs/schematypes.html)
 
 ### Полезные видео:
